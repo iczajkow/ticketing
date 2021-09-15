@@ -10,7 +10,7 @@ const app = express();
 app.use(json());
 
 app.use(currentUserRouter);
-app.use(signoutRouter);
+app.use(signoutRouter); 
 app.use(signinRouter);
 app.use(signupRouter); 
 app.use(errorHandler);
